@@ -1,13 +1,14 @@
 import React from 'react'
 import Pencil from '../assets/3dPencil.png';
 import ProfileImage from '../assets/profile.JPG';
-import htmLogo from '../assets/html.png';
-import cssLogo from '../assets/css.png';
-import jsLogo from '../assets/js.png';
-import bsLogo from '../assets/bs.png';
-import laravelLogo from '../assets/laravel.png';
-import reactLogo from '../assets/react.png';
-import pgLogo from '../assets/pg.png';
+
+import htmLogo from '../assets/tinified/html.png';
+import cssLogo from '../assets/tinified/css.png';
+import jsLogo from '../assets/tinified/js.png';
+import bsLogo from '../assets/tinified/bs.png';
+import laravelLogo from '../assets/tinified/laravel.png';
+import reactLogo from '../assets/tinified/react.png';
+import pgLogo from '../assets/tinified/pg.png';
 const Hero = () => {
   return (
     <div className='hero-section'>
@@ -39,21 +40,21 @@ const Hero = () => {
 
             <div className='main main__techStack'>
                 <h2>Tech Stack </h2>
-                <span>
-                    <img src={htmLogo} alt="" />
-                    <img src={cssLogo} alt="" />
-                    <img src={jsLogo} alt="" />
-                    <img src={bsLogo} alt="" />
-                    <img src={laravelLogo} alt="" />
-                    <img src={reactLogo} alt="" />
-                    <img src={pgLogo} alt="" />
+                <span className='animate-bot-top'>
+                    <img className='fade-in' src={htmLogo} alt="" />
+                    <img className='fade-in' src={cssLogo} alt="" />
+                    <img className='fade-in' src={jsLogo} alt="" />
+                    <img className='fade-in' src={bsLogo} alt="" />
+                    <img className='fade-in' src={laravelLogo} alt="" />
+                    <img className='fade-in' src={reactLogo} alt="" />
+                    <img className='fade-in' src={pgLogo} alt="" />
                 </span>
             </div>
         </div>
         
 
 
-        <div class="hero-bottom-wave animate-bot-top">
+        <div class="hero-bottom-wave">
             <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
                 <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
             </svg>
