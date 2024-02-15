@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.de579817.css",
+    "main.js": "/portfolio/static/js/main.7b440300.js",
+    "static/js/592.6d7de513.chunk.js": "/portfolio/static/js/592.6d7de513.chunk.js",
+    "static/media/profile.JPG": "/portfolio/static/media/profile.32f820bf4b61f895e1c1.JPG",
+    "static/media/react.png": "/portfolio/static/media/react.719f305767999fb3bf77.png",
+    "static/media/pg.png": "/portfolio/static/media/pg.22454048a959e2ad320a.png",
+    "static/media/hammer.png": "/portfolio/static/media/hammer.7ea38fffb08f5aec7d42.png",
+    "static/media/css.png": "/portfolio/static/media/css.dc8a22ea5ebbb1bd0ce0.png",
+    "static/media/3dPencil.png": "/portfolio/static/media/3dPencil.5eedcc31f848b238bd84.png",
+    "static/media/html.png": "/portfolio/static/media/html.8d53a2ec8746907464ff.png",
+    "static/media/handWave.png": "/portfolio/static/media/handWave.31d4d174711d0df2a21b.png",
+    "static/media/laravel.png": "/portfolio/static/media/laravel.56ff77d067503a829cb6.png",
+    "static/media/phone.png": "/portfolio/static/media/phone.bbbc171dde53ab5a56f1.png",
+    "static/media/footer-wave.svg": "/portfolio/static/media/footer-wave.7e9a091dabb44d797b98.svg",
+    "index.html": "/portfolio/index.html",
+    "static/media/top-wave.svg": "/portfolio/static/media/top-wave.48db349d0339abbb084a.svg",
+    "main.de579817.css.map": "/portfolio/static/css/main.de579817.css.map",
+    "main.7b440300.js.map": "/portfolio/static/js/main.7b440300.js.map",
+    "592.6d7de513.chunk.js.map": "/portfolio/static/js/592.6d7de513.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.de579817.css",
+    "static/js/main.7b440300.js"
+  ]
+}
