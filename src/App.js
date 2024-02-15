@@ -16,6 +16,7 @@ function App() {
       <Card /> {/* project section*/}
       <About />
       <Contact />
+      <div className='footer-wave'></div>
     </div>
   );
 }
