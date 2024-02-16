@@ -23,8 +23,7 @@ const Hero = () => {
                     <img src={Pencil} alt="" style={{height: '36px', padding: '0px 0px 0px 10px'}} />
                 </h2>
                 <h6>
-                    Hello, I'm Jeff Beck M. Lim. A passionate Web Developer <br /> and Digital Artist Based in the Philippines
-                    🇵🇭
+                    Hello, I'm Jeff Beck M. Lim. A passionate Web Developer <br /> and Digital Artist Based in the Philippines.
                 </h6>
 
                 <span>

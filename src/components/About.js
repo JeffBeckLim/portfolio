@@ -1,12 +1,12 @@
 import React from 'react'
-import handWaveImg from '../assets/handWave.png'
+// import handWaveImg from '../assets/handWave.png'
 
 const About = () => {
   return (
       <div className='about-section'>
           <div className='about-container'>
                 <div className='about-container-header'>
-                    <h4>About <img className='icon'  src={handWaveImg} alt="" /></h4>
+                    <h4>About</h4>
                 </div>
                 
                 <div className='about-card-parent'>

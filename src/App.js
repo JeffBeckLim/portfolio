@@ -8,7 +8,7 @@ import Contact from './components/Contact';
 
 function App() {
   return (
-    <div>
+    <div style={{margin: '0'}}>
       <div className='top-wave animate-top-bot'></div>
 
       <NavBar /> {/* header section*/}
@@ -16,7 +16,6 @@ function App() {
       <Card /> {/* project section*/}
       <About />
       <Contact />
-      <div className='footer-wave'></div>
     </div>
   );
 }

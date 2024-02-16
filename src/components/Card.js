@@ -1,5 +1,5 @@
 import React from 'react'
-import hammer from '../assets/hammer.png';
+// import hammer from '../assets/hammer.png';
 
 import CardComponent from './CardComponent';
 
@@ -14,7 +14,7 @@ const Card = () => {
 
         <div className='card-container'>
                 <div className='card-container-header'>
-                    <h4>Projects <img className='icon' src={hammer} alt="" /></h4>
+                    <h4>Projects</h4>
                 </div>
                 <CardComponent />
                 <CardComponent />
