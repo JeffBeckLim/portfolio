@@ -386,6 +386,12 @@
     display: none;
     font-size: 14px;
   }
+  .main__content h2{
+    font-size: 30px;
+  }
+  .pencil-icon{
+    height: 1.5rem !important;
+  }
   .contact-content{ 
     height: 100%;
     padding: 0;
