@@ -14,8 +14,8 @@ const Contact = () => {
                   <h2><i class="fa-solid fa-circle-notch"></i> Jeffbeck.lim</h2>
                   <h1>limjeff64@gmail.com</h1>
 
-                  <h4>(+63) 9150085056</h4>
-                  <h4>Travesia, Guinobatan, Albay, Philippines</h4>
+                  <h4><i class="fa-solid fa-phone"></i> (+63) 915 0085 056</h4>
+                  <h4><i class="fa-solid fa-location-dot"></i> Travesia, Guinobatan, Albay, Philippines</h4>
 
                     <div>
                       <i className="fa-brands fa-github"></i>

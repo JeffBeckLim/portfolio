@@ -3,7 +3,7 @@ import ThumbnailImg from '../assets/profile.JPG'
 
 const CardComponent = () => {
   return (
-    <div>
+    <div className='card-parent'>
          <div className='card'>
             <div className='card-img'>
                 <img src={ThumbnailImg} alt="" />

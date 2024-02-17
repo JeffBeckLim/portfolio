@@ -8,14 +8,13 @@ import Contact from './components/Contact';
 
 function App() {
   return (
-    <div style={{margin: '0'}}>
+    <div style={{margin: '0px'}}>
       <div className='top-wave animate-top-bot'></div>
-
-      <NavBar /> {/* header section*/}
-      <Hero /> {/* body section*/}
-      <Card /> {/* project section*/}
-      <About />
-      <Contact />
+        <NavBar /> {/* header section*/}
+        <Hero /> {/* body section*/}
+        <Card /> {/*project section */}
+        <About /> 
+        <Contact />
     </div>
   );
 }

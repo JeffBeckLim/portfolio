@@ -5,7 +5,7 @@ const NavBar = () => {
     // <div className='header-fixed'>
       <div className="container">
           <div className="header header__title">
-              <h2><i class="fa-solid fa-circle-notch"></i> Jeffbeck.lim</h2>
+              <span><i class="fa-solid fa-circle-notch"></i> Jeffbeck.lim</span>
           </div>
           <div className="header header__menu">
               <i className="fa-solid fa-bars"></i>
