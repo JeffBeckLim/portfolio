@@ -1,6 +1,6 @@
 import React from 'react'
 import Pencil from '../assets/3dPencil.png';
-import ProfileImage from '../assets/profile.JPG';
+import ProfileImage from '../assets/profile-painted.png';
 
 import htmLogo from '../assets/tinified/html.png';
 import cssLogo from '../assets/tinified/css.png';
@@ -14,7 +14,7 @@ const Hero = () => {
     <div className='hero-section'>
         <div className="main-container">
             <div className="main main__profile">
-                <img className='shadow' src={ProfileImage} alt=""/>
+                <img className='profile-painted' src={ProfileImage} alt=""/>
             </div>
 
             <div className="main main__content">
