@@ -11,7 +11,7 @@ function App() {
     <div style={{margin: '0px'}}>
       <div className='top-wave animate-top-bot'></div>
        
-        <NavBar /> {/* header section*/}
+        <NavBar /> {/* header section */}
         <Hero /> {/* body section*/}
         <Card /> {/*project section */}
         <About /> 

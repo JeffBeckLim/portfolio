@@ -30,9 +30,9 @@ const NavBar = () => {
   }, [isDrawerOpen]);
 
   return (
-    // <div className='header-fixed'>
+      <div>
+        <Drawer isOpen={isDrawerOpen} onClose={closeDrawer} />
       <div className="container">
-          <Drawer isOpen={isDrawerOpen} onClose={closeDrawer} /> 
           <div className="header header__title">
               <span style={{fontWeight: 'bold'}}><i className="fa-solid fa-circle-notch"></i> Jeffbeck.lim</span>
           </div>
@@ -44,7 +44,7 @@ const NavBar = () => {
               <span>Contacts</span>
           </div>
       </div>
-    // </div>
+    </div>
   )
 }
 

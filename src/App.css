@@ -21,12 +21,15 @@
   right: 0;
   width: 300px;
   z-index: 200;
-  translate: 100vw 0px;
+  transform: translateX(120%);
+  transition: transform 400ms;
 }
 
 .open{
   /* display: block; */
-  translate: 0px 0px;
+
+  transform: translateX(0%);
+  /* translate: 0px 0px; */
 }
 .header{
   align-items: center;
@@ -62,6 +65,7 @@
   background-size: cover;   
   position: absolute;
   background-image: url('assets/top-wave.svg');
+  height: 100vh;
   width: 100%;
   z-index: -1;
 }
@@ -344,6 +348,9 @@
 
 
 @media (max-width: 946px){
+  .about-card-content{
+    flex-direction: column;
+   }
   
   .main__profile{
     /* border: red dotted 2px; */
@@ -363,6 +370,11 @@
     grid-template-columns: 1fr;
     padding: 0;
     margin: 0;
+    z-index: 1;
+  }
+
+  .main__techStack{
+    margin: 0px 20% 0px 20%;
     z-index: 1;
   }
   .contact-content{ 
@@ -404,6 +416,23 @@
 
 /* sm */
 @media (max-width: 640px){
+  
+  .fa-bars{
+    font-size: 14px;
+  }
+  .header{
+    padding: 0px 10px 0px 10px;
+  }
+  .btn-primary{
+    padding: 0;
+  }
+  .header__menu button{
+    font-size: 12px;
+    padding: 10px;
+  }
+  .header__title span{
+    font-size: 16px;
+  }
 
   .about-container{
     margin: 0px 0px 0px 0px;  
@@ -447,9 +476,15 @@
     font-size: 22px;
     margin: 10px;
   }
+
 }
 
-
+/* really small */
+@media(max-width: 300px) {
+  .drawer{
+    width: 100%;
+  }
+}
 
 
 
@@ -473,13 +508,13 @@
   padding: .5rem;
   transition: scale .2s ease;
 }
+
 .btn-primary:hover{
   scale: 1.02;
   filter: brightness(1.2);
 }
 .text-decoration-none{
   text-decoration: none;
-  color: white;
 }
 
 /* custom classes */
